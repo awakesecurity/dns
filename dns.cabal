@@ -120,6 +120,7 @@ test-suite spec-tests
     build-tool-depends: hspec-discover:hspec-discover
     hs-source-dirs:     test
     other-modules:
+        CollapseLength
         EncodeSpec
         DecodeSpec
         RoundTripSpec
